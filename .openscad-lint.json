@@ -1,0 +1,10 @@
+[
+    {
+        "file": "models/h3c-desiccant/baffles_section.scad",
+        "defines": ["section_view=\"top\""]
+    },
+    {
+        "file": "models/h3c-desiccant/box_lid.scad",
+        "defines": ["print_ready=false"]
+    }
+]

@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: openscad-lint
+        name: OpenSCAD compiler checks
+        entry: python scripts/lint_scad.py
+        language: system
+        # Shared includes affect multiple models, so check the entire project.
+        pass_filenames: false
+        always_run: true
